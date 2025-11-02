@@ -1,13 +1,12 @@
 """
-Data Processing & ETL Pipeline Module
-Comprehensive data ingestion, transformation, and validation system
-Part of: Advanced Feature Selection Research Project
-Research Team: AI & Machine Learning Laboratory
+Data Processing Module
+This module handles data loading, preprocessing, and validation.
+Developed by: Student 1
 """
 
-from .loader import FileReader
+from .loader import DataLoader
 from .preprocessor import DataPreprocessor
 from .validator import DataValidator
 
-__all__ = ['FileReader', 'DataPreprocessor', 'DataValidator']
+__all__ = ['DataLoader', 'DataPreprocessor', 'DataValidator']
 

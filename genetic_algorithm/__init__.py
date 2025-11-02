@@ -1,8 +1,7 @@
 """
-Genetic Algorithm for Feature Selection
-Bio-inspired algorithmic implementation for intelligent attribute selection
-Part of: Advanced Feature Selection Research Project
-Research Team: AI & Machine Learning Laboratory
+Genetic Algorithm Module
+This module contains the core genetic algorithm implementation for feature selection.
+Developed by: Student 2
 """
 
 from .chromosome import Chromosome
